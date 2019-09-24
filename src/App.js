@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Welcome from "./components /welcome";
+import Card from "./components /card";
+import Navbar from './components /navbar'
 
 const App = () => {
   return (
     <div>
-      <Welcome />
+      <Navbar/>
+      <Card/>
     </div>
   );
 };
